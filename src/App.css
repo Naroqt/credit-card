@@ -1,0 +1,61 @@
+.credit-body {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 15px;
+  background-color: lightblue;
+  width: 600px;
+  height: 300px;
+}
+
+.credit-title {
+  display: flex;
+  position: absolute;
+  top: 1px;
+  right: 22px;
+  color: white;
+}
+.first-pic {
+  display: flex;
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  top: 33px;
+  left: 33px;
+}
+
+.second-pic {
+  display: flex;
+  width: 66px;
+  height: 88px;
+  position: Absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.expiration {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  left: 30px;
+  bottom: 22px;
+  width: 80%;
+}
+.code {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 200px;
+  bottom: 130px;
+  background-color: lightgrey;
+  width: 200px;
+}
+.holder {
+  display: flex;
+  position: absolute;
+  left: 20px;
+  bottom: 1px;
+}
+.valid {
+  margin-left: 158px;
+}
